@@ -4,7 +4,7 @@
 int main(){
     FILE * arquivo;
     arquivo = fopen("poema.txt", "r");
-    if(arquivo = NULL){
+    if(arquivo == NULL){
         printf("Erro ao abrir o arquivo");
         return 1;
     }
@@ -15,7 +15,7 @@ int main(){
     scanf("%s", palavra);   
 
     while((fscanf(arquivo, "%s", palavraLida)) != EOF){
-        //strcmp teronar 0 quando as palavras são iguais
+        //strcmp retornar 0 quando as palavras são iguais
         comparacao = strcmp(palavra, palavraLida);
         if(comparacao == 0){
              numRepeticoes++;
