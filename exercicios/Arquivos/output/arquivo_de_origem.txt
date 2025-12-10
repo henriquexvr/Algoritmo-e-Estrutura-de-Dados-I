@@ -1,0 +1,14 @@
+Ola, mundo dos arquivos em C!
+
+Este eh um arquivo de exemplo que sera usado como origem.
+O objetivo eh testar a funcionalidade de copia de arquivos.
+
+Ele contem:
+1. Multiplas linhas.
+2. Linhas com comprimentos variados.
+3. Numeros como 12345 e pontuacao como !, ?, ..
+
+Esperamos que a copia para o arquivo de destino seja exata.
+
+Fim do arquivo de origem.
+Boa sorte com o exercicio!
